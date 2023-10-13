@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int a,b;         
-    for(a=10,b=0;a<=10,b<=10;a--,b++);      //Here a semi colon is added 
+    for(a=10,b=0;a<=10,b<=10;a--,b++)   ;      //<<<<Here a semi colon is added 
     {                                  
         printf("a=%d b=%d\n",a,b);
  }                                      // Analyse the result
