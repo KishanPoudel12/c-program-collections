@@ -1,4 +1,4 @@
-// Swich Case statement for making of a simple calculator 
+// Swich Case statement for making a simple calculator  
 #include<stdio.h>
 int main(){
  float   a,b;
