@@ -1,4 +1,4 @@
-// Incerment & Decrement sideways in for loop
+// Incerment & Decrement sideways in For  loop
 #include<stdio.h>
 int main(){
     int a,b;
