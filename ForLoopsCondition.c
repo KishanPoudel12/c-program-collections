@@ -1,4 +1,4 @@
-// What happens when we add a semi colon  after for the for loops
+// What happens when we add a semi colon  after  the FOR loops
 #include<stdio.h>
 int main(){
     int a,b;         
