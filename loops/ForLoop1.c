@@ -1,4 +1,4 @@
-// Program to print a sentence many times 
+// Program to print any sentence many times 
 #include<stdio.h>
 int main(){
     int a;
