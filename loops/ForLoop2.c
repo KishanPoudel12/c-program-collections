@@ -1,4 +1,4 @@
-// Program to print the numbers from smallest two digit(10) to greatest two digit number(99)
+// Program to print the numbers from smallest two digits(10) to greatest two digits number(99)
 
 #include<stdio.h>
 int main(){
