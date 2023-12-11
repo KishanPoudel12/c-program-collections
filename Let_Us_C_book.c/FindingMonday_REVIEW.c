@@ -4,6 +4,10 @@ According to the Gregorian calendar, it was Monday on the date
 to find out what is the day on 1st January of this year
 */
 
+
+//Learn the concept of functions first 
+
+
 #include <stdio.h>
 int checkLeapYear(int year)
 {
