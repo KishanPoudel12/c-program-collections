@@ -2,10 +2,15 @@
 program to reverse the number */
 #include <stdio.h>
 int main(){
-int a,b,c,d,e;
+int num,r_num=0,temp=0;
+temp=num;
 printf("Enter the 5 digit number :");
-scanf("%1d%1d%1d%1d%1d",&a,&b,&c,&d,&e);
-printf("The input number is %d%d%d%d%d",a,b,c,d,e);
-printf("\nThe reverse of the number is %d%d%d%d%d",e,d,c,b,a);
+scanf("%d",&num);
+while(num!=0){
+    r_num=r_num*10;   
+    r_num=num%10+r_num;
+    num=num/10;
+}
+printf("The reverse is %d",r_num);
 return 0;
 }
