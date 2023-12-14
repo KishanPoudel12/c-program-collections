@@ -10,9 +10,14 @@ printf ( "w = %d x = %d y = %d z = %d\n", w, x, y, z ) ;
 return 0 ;
 }
 
-//  PRECEDENCE OF OPERATORS 
-//  0. ==
-//  1. !
-//  2. &&
-//  3. ||
 
+
+//     OPERATORS                    TYPE
+//       !                       Logical NOT
+//      */%                      Arithmetic
+//      +-                       Arithmetic                       
+//     < < <= >=                 Relational
+//      == !=                    Relational
+//      &&                       Logical AND
+//      ||                       Logical OR
+//      =                        Assignment
