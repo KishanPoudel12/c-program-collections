@@ -7,11 +7,11 @@ Hint :A=( s (s-a)(s-b)(s-c) ) ^1/2 ,where s= semi-perimeter */
 int main()
 {
     float a, b, c;
-    float  s, A;
+    float  s, A;               
     printf("Enter the length a:");
     scanf("%f",&a);
     printf("Enter the length b:");
-    scanf("%f",&b);
+    scanf("%f",&b); 
     printf("Enter the length c:");
     scanf("%f",&c);
     s = (a + b + c) / 2;
