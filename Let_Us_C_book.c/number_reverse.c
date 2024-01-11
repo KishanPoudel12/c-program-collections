@@ -9,9 +9,9 @@ while(num!=0){
     remainder=num % 10;   
     r_num  =remainder+ r_num*10;
     num   =num/10;
-    sum=sum+remainder;
+    // sum=sum+remainder;
 }
 printf("The reverse is %d",r_num);
-printf("\nsum=%d",sum);
+// printf("\nsum=%d",sum);
 return 0;
 }
