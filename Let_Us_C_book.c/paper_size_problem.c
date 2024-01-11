@@ -8,9 +8,9 @@ A0, A1, A2, … A8*/
 int main()
 {
     float l = 1189, b = 841, s;
-    int i;
 
-    for (i = 1; i <= 8; i++)
+
+    for (int i = 1; i <= 8; i++)
     {
       printf("\nA%d : l=%f ,b=%f\n",i,l,b);
       s=l;       // s=1189  l=1189
