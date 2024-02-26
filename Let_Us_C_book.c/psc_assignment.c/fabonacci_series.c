@@ -10,6 +10,7 @@ int main()
         printf("%d\t",faboo(i));
     }
 return 0;  
+
 }
 int faboo(int x)
 {
