@@ -18,14 +18,11 @@ int main()
         for(int j=0;j<3;j++){
            sum=sum+arr[i][j]; 
         }
-
     }
     for(int i=0;i<3;i++){
-
         sumR=0;
         for(int j=0;j<3;j++){
             sumR=sumR+arr[i][j];
-           
         }
          printf("sum of elements of row%d is %d \n",i,sumR); 
     }
@@ -33,7 +30,6 @@ int main()
         sumC=0; 
         for(int i=0;i<3;i++){
             sumC=sumC+arr[i][j];
-            
         }
         printf("The sum of the column%d is %d \n",j,sumC);
        }

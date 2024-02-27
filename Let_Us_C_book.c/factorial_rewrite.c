@@ -11,10 +11,8 @@ int main()
 }
 int fact(int x)
 {
-int factorial=0;
 if(x==1)
 return 1;
 else
-factorial=x*fact(x-1);
-return factorial;
+return x*fact(x-1);
 }
