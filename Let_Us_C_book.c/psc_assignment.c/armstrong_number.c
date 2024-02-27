@@ -7,11 +7,15 @@ int main() {
 
     while (originalNum != 0) {
        // remainder contains the last digit
+       
+       
+       
         remainder = originalNum % 10;
         
        result = result + remainder * remainder * remainder;
         
-       // removing last digit from the orignal number
+       // removing last digit fro
+    //    m the orignal number
        originalNum /= 10;
     }
 
